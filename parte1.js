@@ -12,6 +12,7 @@ function retirarDinero(monto) {
     });
 }
 
+
 retirarDinero(200)
     .then(mensaje => console.log(" ÉXITO:", mensaje))
     .catch(error => console.log(" ERROR:", error));
