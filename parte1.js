@@ -6,7 +6,7 @@ function retirarDinero(monto) {
                 const saldoRestante = saldoDisponible - monto;
                 resolve(`Retiro exitoso de $${monto}. Saldo restante: $${saldoRestante}`);
             } else {
-                reject("Fondos insuficientes: Limite de retiro: $500");
+                reject("Fondos insuficientes: Límite de retiro: $500");
             }
         }, 1500);
     });

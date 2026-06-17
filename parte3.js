@@ -1,4 +1,4 @@
-function consultarClima(Ciudad){
+function consultarClima(ciudad){
     return new Promise((resolve)=>{
         setTimeout(()=>{
             resolve({ temperatura: "24 °C", condicion:"Soleado"});
