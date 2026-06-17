@@ -6,7 +6,7 @@ function consultarClima(Ciudad){
     });
 }
 
-async function mostarClima(ciudad) {
+async function mostrarClima(ciudad) {
     try{
         console.log(`Consultando clima para ${ciudad}...`);
         const clima =await consultarClima(ciudad);
@@ -19,4 +19,6 @@ async function mostarClima(ciudad) {
     }
     
 }
-mostarClima("Quito");
+mostrarClima("Quito");
+mostrarClima("Guayaquil");
+mostrarClima("Cuenca");

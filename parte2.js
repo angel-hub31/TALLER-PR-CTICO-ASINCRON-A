@@ -1,11 +1,3 @@
-retirarDinero(200)
-    .then(mensaje => console.log(" ÉXITO:", mensaje))
-    .catch(error => console.log(" ERROR:", error));
-
-retirarDinero(600)
-    .then(mensaje => console.log(" ÉXITO:", mensaje))
-    .catch(error => console.log(" ERROR:", error));
-
 
 function verificarEdad(edad) {
     return new Promise((resolve, reject) => {
@@ -22,3 +14,5 @@ function verificarEdad(edad) {
 }
 
 verificarEdad(20).then(res => console.log(res)).catch(err => console.log(err));
+
+verificarEdad(16).then(res => console.log("ÉXITO:", res)).catch(err => console.log("ERROR:", err));
