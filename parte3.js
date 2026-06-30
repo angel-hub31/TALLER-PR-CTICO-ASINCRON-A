@@ -1,5 +1,5 @@
 function consultarClima(ciudad) {
-    return new Promise((resolve) => {
+    return new Promise((resolve,reject) => {
         setTimeout(() => {
             if (!ciudad) {
                 reject("Ciudad no válida");
